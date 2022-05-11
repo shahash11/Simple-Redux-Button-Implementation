@@ -9,7 +9,17 @@ const Counter = (props) => {
   console.log(value);
   console.log(toggle)
 
+//   the difference is just to import the useSelector and useDispatch from the react-redux
+// useSelector gets the state
+// useDispatch helps to dispatch the actions, that's all
 
+
+// const state = useSelector((state)=>state)---- way to access state using useSelector
+// const dispatch = useDispatch(); ---way to dispatch
+// 
+// const increment = () => {
+//     dispatch({ type: "increment", payload: 2 });
+//   };
 
   const increment = () => {
     props.dispatch(incremental());
