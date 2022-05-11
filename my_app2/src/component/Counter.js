@@ -21,6 +21,8 @@ const Counter = (props) => {
 //     dispatch({ type: "increment", payload: 2 });
 //   };
 
+// I am in the feature branch
+
   const increment = () => {
     props.dispatch(incremental());
   };
